@@ -4,24 +4,24 @@
 var boxOne = "Stringa";
 var boxOne = 213;
 
-/* con VAR posso RI-DICHIARARE la stessa variabile */
+// con VAR posso RI-DICHIARARE la stessa variabile
 
 let boxTwo = "Stringa";
-//let boxTwo = 213;
+// % let boxTwo = 213;
 
-/* con LET non posso RI-DICHIARARE la stessa variabile */
+// con LET non posso RI-DICHIARARE la stessa variabile
 
-// * ___________________________________________________
+// * ______________________________________________
 
 let piGreco = 3.14;
 piGreco = 3;
 
-/*  con LET e VAR posso RI-ASSEGNARE la stessa variabile */
+// con LET e VAR posso RI-ASSEGNARE la stessa variabile
 
 const PI = 3.14;
 PI = 3;
 
-/* con CONST non posso RI-ASSEGNARE la stessa variabile */
+// con CONST non posso RI-ASSEGNARE la stessa variabile
 
 
 // ! Utilizza anche un tipo booleano e concatenalo in 
