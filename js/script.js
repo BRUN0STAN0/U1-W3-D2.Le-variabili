@@ -3,11 +3,11 @@
 
 var boxOne = "Bruno";
 var boxOne = 213;
-//con VAR posso ridichiarare la stessa variabile
+// con VAR posso ridichiarare la stessa variabile
 
 let boxTwo = "Stano";
 // % let boxTwo = 213;
-//con LET non posso ridichiarare la stessa variabile
+// con LET non posso ridichiarare la stessa variabile
 
 //* ______________________________________________
 
@@ -18,7 +18,6 @@ piGreco = 3;
 const PI = 3.14;
 //% PI = 3;
 // con CONST non posso riassegnare la stessa variabile
-
 
 //! Utilizza anche un tipo booleano e concatenalo in 
 //! una stringa o ad una variabile di tipo stringa
