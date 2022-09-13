@@ -1,61 +1,45 @@
-let nome = "Mirtilla";
-console.log(nome);
-var utente = "cliente";
-console.log(utente);
+// ! Imposta strutture VAR, LET, CONST
+// ! Differenza fondamentale tra VAR, LET, CONST
+
+var boxOne = "Stringa";
+var boxOne = 213;
+
+/* con VAR posso RI-DICHIARARE la stessa variabile */
+
+let boxTwo = "Stringa";
+//let boxTwo = 213;
+
+/* con LET non posso RI-DICHIARARE la stessa variabile */
+
+// * ___________________________________________________
+
+let piGreco = 3.14;
+piGreco = 3;
+
+/*  con LET e VAR posso RI-ASSEGNARE la stessa variabile */
+
 const PI = 3.14;
-console.log(PI);
+PI = 3;
 
-//nome = "Lilla";
-console.log(nome);
-utente = "amministratore";
-console.log(utente);
-//PI = 4;
-//console.log(PI);
+/* con CONST non posso RI-ASSEGNARE la stessa variabile */
 
-let primoLavoro = "developing";
-let secondoLavoro = "formazione";
 
-let lavoro = primoLavoro + " e " + secondoLavoro;
+// ! Utilizza anche un tipo booleano e concatenalo in 
+// ! una stringa o ad una variabile di tipo stringa
 
-console.log('io mi occupo di: ' + lavoro);
-console.log('io mi occupo di: ' + primoLavoro + " e " + secondoLavoro);
+let valoreBooleano = true;
+valoreBooleano += boxTwo; // trueStringa
 
-let JS = true;
-console.log('Let JS: ' + JS);
+// ! Esegui delle operazioni di somma e sottrazione
 
-let anno;
-console.log(anno);
+4 + 2; // 6
+boxOne + 3; // 219
+200 - 100; // 100
 
-anno = 1991;
+// ! Mostrare con direttive output il risultato degli script
 
-const annoAttuale = 2021;
-
-let anniMirtilla = annoAttuale - anno;
-console.log(anniMirtilla);
-
-console.log(nome + " ha: " + anniMirtilla + " anni");
-
-let a = 10 + 5;
-let b = 3;
-let c = 10;
-let somma = b + c + 2;
-console.log(somma);
-
-c++;
-console.log(c);
-a--;
-console.log(a);
-
-let nomePet = "Billo";
-let colorePet = "rosso";
-const pet = "il nome del pet: " + nomePet + "e il suo colore è: " + colorePet;
-console.log(pet);
-
-// sintassi letterale con backtick -> apice inverso
-const pet1 = `il nome del pet: ${nomePet}  e il suo colore è: ${colorePet}`;
-console.log(pet1);
-
-console.log('string con \n\ righe \n\ multiple');
-console.log(`string con 
-righe 
-multiple`);
+console.log("valoreBooleano = " + valoreBooleano);
+console.log("PI = " + PI);
+console.log("piGrego = " + piGreco);
+console.log("boxOne = " + boxOne);
+console.log("boxTwo = " + boxTwo);
