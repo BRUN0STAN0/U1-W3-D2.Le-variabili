@@ -24,6 +24,7 @@ const PI = 3.14;
 
 let valoreBooleano = true;
 valoreBooleano += boxTwo; // trueBruno
+// stessa cosa di valoreBooleano = valoreBooleano + bowTwo
 
 //! Esegui delle operazioni di somma e sottrazione
 
