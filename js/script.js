@@ -1,11 +1,11 @@
 //! Imposta strutture VAR, LET, CONST
 //! Differenza fondamentale tra VAR, LET, CONST
 
-var boxOne = "Stringa";
+var boxOne = "Bruno";
 var boxOne = 213;
 //con VAR posso ridichiarare la stessa variabile
 
-let boxTwo = "Stringa";
+let boxTwo = "Stano";
 // % let boxTwo = 213;
 //con LET non posso ridichiarare la stessa variabile
 
@@ -24,7 +24,7 @@ const PI = 3.14;
 //! una stringa o ad una variabile di tipo stringa
 
 let valoreBooleano = true;
-valoreBooleano += boxTwo; // trueStringa
+valoreBooleano += boxTwo; // trueBruno
 
 //! Esegui delle operazioni di somma e sottrazione
 
